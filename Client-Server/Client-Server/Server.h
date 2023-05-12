@@ -39,6 +39,6 @@ public:
 	void Handler() ;
 
 	Server(char[], int, size_t);
-	~Server() {};
+	~Server()
 };
 

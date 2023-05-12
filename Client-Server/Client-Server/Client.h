@@ -35,6 +35,6 @@ public:
 
 	void Handler();
 	Client(char[], int);
-	~Client() {};
+	~Client();
 };
 

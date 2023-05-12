@@ -186,3 +186,10 @@ Server::Server(char i_addr[], int i_port, size_t i_max)
 	listen(sListen, MaxSize);
 	std::cout << "Start Listening\n";
 }
+
+Server::~Server()
+{
+	WSACleanup();
+	Server::buf.clear();
+	Connections.clear();
+}

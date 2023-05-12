@@ -146,3 +146,9 @@ void Client::Handler()
 			exit(1);
 		}
 	}
+
+	Client::~Client() {
+		RecvBuf.clear();
+		SendBuf.clear();
+		WSACleanup();
+	}
