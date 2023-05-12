@@ -1,0 +1,7 @@
+﻿  Client.cpp
+D:\Program\Client-Server\Client-Server\Client.cpp(22): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+D:\Program\Client-Server\Client-Server\Client.cpp(52): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+D:\Program\Client-Server\Client-Server\Client.cpp(74,8): warning C4101: total: неиспользованная локальная переменная
+D:\Program\Client-Server\Client-Server\Client.cpp(73,9): warning C4101: fd_in: неиспользованная локальная переменная
+D:\Program\Client-Server\Client-Server\Client.cpp(73,16): warning C4101: fd_out: неиспользованная локальная переменная
+  Client-Server.vcxproj -> D:\Program\Client-Server\x64\Debug\Client-Server.exe
